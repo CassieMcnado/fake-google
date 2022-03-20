@@ -1,0 +1,117 @@
+body {
+    font-family: Fredoka;
+    position: static;
+    }
+
+.arriba {
+    margin-top: 10px;
+    width: auto;
+    text-align: right;
+    margin-right: 10px;
+    /*margin-left: 550px;*/
+    margin-bottom: 100px;
+}
+
+.minititulo1 {
+    border: 5px;
+    padding-right: 15px;
+}
+
+.minititulo2 {
+    border: 5px;
+    padding-right: 15px;
+}
+
+/*REVISAR EL HOVER PORQUE NO ENTIENDO COMO HACERLO GRANDE*/
+span:hover{
+    border-radius: 50px;
+    color: rgb(58, 57, 57);
+    box-shadow: 0px 0px 16px rgba(49, 138, 172, 1);
+    transition: all 0.2s ease;
+    -webkit-transform: scale(1);
+    transform: scale(1)
+}
+
+.iconcuadro img {
+    width: 24px;
+    height: 24px;
+}
+
+.iconcirculo img {
+    margin-top: 5px;
+    width: 32px;
+    height: 32px;
+    border-radius: 150px;
+    border: 10px black;
+    
+}
+
+.larga img {
+    margin: auto;
+    display: block;
+    width: 400px;
+    height: 160px;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 80px;
+    background: linear-gradient(blue,pink 50%);
+    -webkit-background-clip: text;
+    color: transparent;
+    padding-bottom: 30px;
+}
+
+.buscador { 
+    width: 400px;
+    text-align: center;
+    font-family: arial, sans-serif; 
+    font-size: 20px;
+    color: #202124; 
+    padding-bottom: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 35px;
+}
+
+.botones {
+    text-align: center;
+    padding: 0 16;
+    border: none;
+    }
+
+.leyenda {
+    text-align: center;
+    font-size: 13px;
+    padding-top: 18px;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #dadce0;
+    color: rgb(26, 25, 25);
+    padding-left: 10px;
+}
+
+.pais {
+    text-align: left;
+    padding: 10px;
+    background-color: #dadce0;
+    border-bottom-width: thin;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(185, 183, 183);
+}
+
+.izquierda {
+    float: left;
+    padding: 10px;
+}
+
+.derecha {
+    float: right;
+    padding-top: 10px;
+    padding-right: 20px;
+}
